@@ -1,0 +1,177 @@
+body{
+    background-color: darkgray;
+}
+.container2{
+    padding: 5px 20px 150px 20px;
+    background-color:black;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: -5px;
+    color: white;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color:crimson;
+    margin-top: 10px;
+    font-size: larger;
+    transition: 2s;
+}
+.heading:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.number{
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    transition: 0.5s;
+    position: relative;
+    top: 10px;
+
+}
+.number:hover{
+    color: blue;
+
+}
+.total_events{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    background-color:red;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    transition: 2s;
+}
+.total_events:hover{
+    width: 15%;
+    background-color:blue;
+    color: cornsilk;
+}
+.food_drive{
+    font-size: 20px;
+    font-style: bold;
+    position: relative;
+    top: 40px;
+}
+.food_percent{
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+    width: 25%;
+    background-color:blue;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 2s;
+    color:cornsilk
+}
+.food_percent:hover{
+    width: 100%;
+    background-color:red;
+    color: black;
+}
+.food_cont{
+    position: relative;
+    left: 20px;
+}
+.animal_drive{
+    font-size: 20px;
+    font-style: bold;
+    position: relative;
+    top: 55px;
+}
+.animal_percent{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    background-color: blue;
+    width: 28%;
+    border-radius: 10px;
+    transition: 2s;
+    color: cornsilk;
+}
+.animal_percent:hover{
+    width: 100%;
+    background-color:red;
+    color: black;
+}
+.animal_cont{
+    position: relative;
+    left: 20px;
+}
+.other_events{
+    font-size: 20px;
+    position: relative;
+    top: 75px;
+    font-style: bold;
+}
+.other_percent{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    background-color: blue;
+    width: 20%;
+    border-radius: 10px;
+    transition: 2s;
+    color: cornsilk;
+}
+.other_percent:hover{
+    width: 100%;
+    background-color:red;
+    color: black;
+}
+.other_cont{
+    position: relative;
+    left: 20px;
+}
+.beach_events{
+    font-size: 20px;
+    position: relative;
+    top: 95px;
+    font-style: bold;
+}
+.beach_percent{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    background-color: blue;
+    width: 11.4%;
+    border-radius: 10px;
+    transition: 2s;
+    color: cornsilk;
+}
+.beach_percent:hover{
+    width: 100%;
+    background-color:red;
+    color: black;
+}
+.beach_cont{
+    position: relative;
+    left: 20px;
+}
+.special_events{
+    font-size: 20px;
+    position: relative;
+    top: 120px;
+    font-style: bold;
+}
+.special_percent{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    background-color: blue;
+    width: 11.4%;
+    border-radius: 10px;
+    transition: 2s;
+    color: cornsilk;
+}
+.special_percent:hover{
+    width: 100%;
+    background-color:red;
+    color: black;
+}
+.special_cont{
+    position: relative;
+    left: 20px;
+}

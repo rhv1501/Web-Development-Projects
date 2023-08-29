@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:darkslategrey;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px;
+    border-color: white;
+    padding: 5px 20px 20px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: -5px;
+    color: white;
+    background-color: black;
+}
+.mail{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.contact{
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    border-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color: white
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.instagram{
+    padding: 5px 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    background:linear-gradient(#feda75,#fa7e1e, #b62976, #962fbf ,#4f5bd5 );
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 700;
+
+}
+.facebook{
+    padding: 5px 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    background:linear-gradient(blue,#3b5998);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.register{
+    display:flex;
+    justify-content: center;
+    margin-top: 73px;
+    margin-left: -185px;
+}
+.membership{
+    padding: 5px 5px;
+    background:linear-gradient(#ef844c,#2d9bd0);
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.instagram:hover{
+    background:linear-gradient(white,white);
+    color: black;
+}
+
+.facebook:hover{
+    background: linear-gradient(white,white);
+    color: black;
+}
+
+.membership:hover{
+    cursor: pointer;
+    background:linear-gradient(white,white);
+    color: black;
+}
+.mail:hover{
+    color:blue
+}

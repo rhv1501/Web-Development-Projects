@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+}
+body{
+    background-color:black;
+    padding: 8px;
+}
+h1{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    padding: 1px;
+    color:black;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+h1:hover{
+    color: white;
+    transform: scale(1.4);
+    z-index: 2;
+    word-spacing: 3px;
+}
+.serve{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding: 1px;
+    color:black;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.serve:hover{
+    color: white;
+    word-spacing: 2px;
+}
+.container{
+    background-color: darkgrey;
+    margin: 0px 30px;
+    padding: 5px 20px 15px 20px;
+    border-radius: 20px;
+}
+.image{
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    padding: 10px 10px 10px 10px;
+    transition: 1s;
+    margin-bottom: 5px;
+}
+.image:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+.intro{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:darkblue;
+    transition: 1s;
+    font-size: 25px;
+} 
+.intro:hover{
+    color: black;
+    transform:scale(1.2);
+    z-index:2;
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 15px 35px;
+}
+.contents{
+    font-size: 20px;
+}
+.services{
+    background-color: black;
+    position: relative;
+    left: -30px;
+    top: 51px;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.aboutus{
+    background-color: black;
+    position: relative;
+    left: -20px;
+    top: 51px;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.reg{
+    background-color: black;
+    position: relative;
+    left: -10px;
+    top: 51px;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.int{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: -235px;
+    margin-right: 30px;
+}
+.int:hover{
+    color: darkslateblue;
+    
+}
+.navimg{
+    width: 85px;
+    position: relative;
+    left: -325px;
+    top: -45px;
+    float: left;
+}
+@media only screen and (max-width:650px){
+.navimg{
+    display: none;
+}
+.int{
+    display: none;
+}
+.contents{
+    padding: 25px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.reg{
+    position: relative;
+    top: -5px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    left: -20px;
+}
+.aboutus{
+    position: relative;
+    top: -5px;
+    right: 20px;
+    left: -42px;
+}
+.services{
+    position: relative;
+    top: -5px;
+    right: 30px;
+    left: -70px;
+}
+}
+@media only screen and ( min-width:720px){
+    .navbar{
+        background: transparent;
+    }
+    .contents{
+        font-size: 25px;
+
+    }
+    .reg{
+      background-color: white;
+      color: black;
+      padding: 10px;
+    }
+    .services{
+        background-color: white;
+        color: black;
+        padding: 10px;
+    }
+    .aboutus{
+        background-color: white;
+        color: black;
+        padding: 10px;
+    }
+    .navimg{
+      position: relative;
+      left: -350px;
+      right: 50px;
+      
+    }
+    .int{
+        position: relative;
+        left: -245px;
+        right: 50px;
+        color: white;
+        bottom: -40px;
+}
+}

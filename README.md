@@ -8,6 +8,10 @@ Languages Used are Html , Css , and native JavaScript
 *During my internship period at campalin innovations i Desinged a website for Tales Of Hope.
 languages use are Html And Css
 
-*Dance Website was my first Fullstack Apllication Languages use Html,Css,node.js
+*I deigned a random login page with local vriable validation
+
+*Dance Website was my first Fullstack Apllication with file as my database Languages use Html,Css,node.js
+
+*blood band project is still in development . it is a fullstack web app with my sql as database.
 
 
